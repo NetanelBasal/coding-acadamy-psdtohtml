@@ -1,0 +1,15 @@
+$main-footer-height: em(97px);
+
+.main-footer {
+  background-color: $sections-bg;
+  height: $main-footer-height;
+}
+
+.main-footer__item {
+  &:not(:last-child) {
+    margin-right: em(17px);
+  }
+  color: #000;
+  font-size: rem(14px);
+  font-weight: bold;
+}
