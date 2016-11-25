@@ -7,8 +7,8 @@
 }
 
 html {
-  color: $main-color;
-  font-family: $font;
+  color: var(--main-color);
+  font-family: var(--primary-font);
   font-size: 16px;
   @include for-mobile-only {
     font-size: 14px;
@@ -35,5 +35,5 @@ button {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  font-family: $font;
+  font-family: var(--primary-font);
 }

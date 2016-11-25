@@ -1,6 +1,6 @@
-$main-nav-height: em(70px);
 .main-nav {
-  height: $main-nav-height;
+  --main-nav-height: em(70px);  
+  height: var(--main-nav-height);
 }
 
 .main-nav__mobile-icon,
@@ -53,7 +53,7 @@ $main-nav-height: em(70px);
   }
 }
 
-#main-nav__mobile-checkbox:checked~.main-nav__inner {
+#main-nav__mobile-checkbox:checked ~ .main-nav__inner {
   transform: scaleX(1);
   opacity: 1;
 }

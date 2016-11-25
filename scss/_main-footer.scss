@@ -1,8 +1,8 @@
-$main-footer-height: em(97px);
 
 .main-footer {
-  background-color: $sections-bg;
-  height: $main-footer-height;
+  --main-footer-height: em(97px);  
+  background-color: var(--sections-bg);
+  height: var(--main-footer-height);
 }
 
 .main-footer__item {

@@ -1,15 +1,16 @@
-/* Layout */
-
 $container-width: 1063px;
-$inner-container-width: 900px;
 $mobile-breakpoint: 642px;
 
-/* Fonts */
+:root {
+  /* Layout */
+  --container-width: $container-width;
+  --inner-container-width: 900px;
+  /* Fonts */
+  --primary-font: Playfair;
+  --secondary-font: Ubuntu;
+  /* Colors */
+  --main-color: #626262;
+  --sections-bg: #f0f0f0;
+}
 
-$font: Playfair;
-$secondary-font: Ubuntu;
 
-/* Colors */
-
-$main-color: #626262;
-$sections-bg: #f0f0f0;

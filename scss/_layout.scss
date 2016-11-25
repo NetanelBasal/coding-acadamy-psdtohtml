@@ -1,13 +1,13 @@
 /*----------  Containers  ----------*/
 
 .container {
-  width: $container-width;
+  width: var(--container-width);
   margin: 0 auto;
   padding: 0 1em;
 }
 
 .inner-container {
-  width: $inner-container-width;
+  width: var(--inner-container-width);
   margin: 0 auto;
 }
 
@@ -35,10 +35,6 @@
 
 .space-between {
   justify-content: space-between;
-}
-
-.flex-one {
-  flex: 1;
 }
 
 .flex-wrap {
