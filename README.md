@@ -4,10 +4,8 @@
 
 ```
 yarn install
-
 ```
 
 ```
 npm start
-
 ```
